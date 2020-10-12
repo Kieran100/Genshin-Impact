@@ -1,17 +1,13 @@
 body {
   background-color: wheat;
 }
-nav {
-  background-color: wheat;
-}
+
 section {
   box-shadow: 6px 6px 18px 0px rgba(0, 0, 0, 0.3);
 }
-.tab {
-  grid-template-columns:
-    minmax(100px, 15%) minmax(100px, 15%) minmax(100px, 25%)
-    minmax(100px, 45%);
-  grid-auto-rows: minmax(50px, auto);
-  column-gap: 2px;
-  row-gap: 2px;
+
+.P-center {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 6px 6px 18px 0px rgba(0, 0, 0, 0.3);
 }
