@@ -1,16 +1,40 @@
 body {
-  background-color: wheat;
+  background-image: url(https://eu8mfgv92k2.exactdn.com/wp-content/uploads/2020/07/2020032014575127029.jpg?strip=all&lossy=1&ssl=1);
+  position: relative;
 }
 
 section {
   box-shadow: 6px 6px 18px 0px rgba(0, 0, 0, 0.3);
 }
 
-.P-center {
-  display: flex;
-  justify-content: space-around;
-  box-shadow: 6px 6px 18px 0px rgba(0, 0, 0, 0.3);
-}
 td {
   border: solid;
+}
+
+.navig {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.navig #links {
+  display: none;
+}
+
+.navig a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.navig .icon {
+  width: 20px;
+  height: 20px;
+}
+
+.navig a:hover {
+  background-color: #ddd;
+  color: black;
 }
