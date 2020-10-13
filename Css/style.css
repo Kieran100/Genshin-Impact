@@ -11,3 +11,6 @@ section {
   justify-content: space-around;
   box-shadow: 6px 6px 18px 0px rgba(0, 0, 0, 0.3);
 }
+td {
+  border: solid;
+}
