@@ -48,10 +48,14 @@ td {
 table {
   width: 100%;
 }
-/* sous menus*/
-.sous {
+/*sous menus*/
+.sous,
+.sousp,
+.sousA {
   display: none;
 }
+
+/*
 nav > ul li:hover .sous {
   display: block;
-}
+}*/
