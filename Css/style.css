@@ -9,6 +9,7 @@ section {
 
 td {
   border: solid;
+  width: 10%;
 }
 
 .navig {
@@ -37,4 +38,18 @@ td {
 .navig a:hover {
   background-color: #ddd;
   color: black;
+}
+.ic {
+  width: 20px;
+  height: 20px;
+}
+table {
+  width: 100%;
+}
+/* sous menus*/
+.sous {
+  display: none;
+}
+nav > ul li:hover .sous {
+  display: block;
 }
