@@ -7,37 +7,46 @@
   <body>
     <h1>Les Personnages</h1>
     <nav id="menu">
-      <ul>
-        <div id="monMenu" class="navig">
-                <img 
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///8AAADPz89LS0uWlpb39/eCgoKQkJCxsbH29vZiYmI4ODh0dHTX19empqbFxcXr6+sQEBDh4eEbGxu7u7s0NDR6enpXV1egoKDJyclvb28ODg6IiIhcXFwfHx8ZGRnwNjATAAACZUlEQVR4nO3dCW7CMBCFYRdIw75vbSm9/y2rqKgUVRo72NJoxv93gveUkGBj7BAAAAAAAAAAAAAAAAAAoAKrdjq0Y9qu+tVbH1/sOa7TC7baYZ/UJvZrZtpJnzZrkgputHNm2KRUPGinzHKIF3zVzpjpNVZwq50w2zbScKodMNtULjjRzlfARGw41o5XwFhsONeOV8BcbGj3ZX83Extqpyui8oY77XQFXMWGJ+14BZzEhlbHTX/JY6iBdrwCFmJDD48auWBYaufLtow0NP803cUKhoV2xEyRT6H9+zR6j3bO2ikznFMKhrDSzvm05GnhxuYgap40l3izHlmbcpuNekx53y7kdmDHts/lAwAAAAAAAAAAxjRvy5Edy7e+P1zsh9q/JfU23PfoN7hqx33KdZBa0O5i9ugy9h+f2jkzfKYUfNdOmeU9XtD6Sm95lXfwsFhfXqofwkU7YLZLpKF2vgLkgnYXC93Jy4bsvgrv5JeivS9r/w3Fhh/a8QrYiA210xVR+TX0/zn0/yz1/z708KiRC1bwvdT+2CI6JeV+fFjBGL+CeRrLT5vEubYK5kuD/znvjvffLQAAAAAAAAAAgCHO94myt9fXoddeXxOj+7XFFkD/srtsKHHPPff7Jrrf+9L//qVf2hEzRfegtX2PdmL3qXa+AuSC/vfz9r8nu/999a3v5t2Rn6ba6YqovKH/c2ZsDpseyWcFWV/l3ZFXettfqh/9I7D7c9cqODvP/H+7EhazW5tke5RwhmVoLI+Bk84h9X+WbLA7hko9DzhUcKZzx/m53AAAAAAAAAAAAAAAAABg0zfn21Nf0tdOJAAAAABJRU5ErkJggg=="
-                class="icon"
-                onclick=openMenu()
-              ></img>
-          <div id="links">
-                <li>
-                  <a><img src="img/épée.jpg" class="ic"/>Les Armes</a>
-                      <ul class="sous">
-                          <a href="armes5.html">Armes 5 ⭐</a>
-                          <a href="armes4.html">Armes 4 ⭐</a>
-                      </ul>
-                 </li>
-            <a href="artefacts.html"><img src="img/iconartef.webp" class="ic"/> Artefacts</a>
-            <li>
-              <a ><img src="img/iconperso.webp" class="ic"/>Les Personnages</a>
-                 <ul class="sous">
-                    <a href="persoAnemo.html"> Personnages Anemo <img src="img/UI_Icon_Wind.webp" class="ic"/></a>
-                    <a href="persoCryo.html"> Personnages Cryo <img src="img/UI_Icon_Ice.webp" class="ic"/></a>
-                    <a href="persoAnemo.html"> Personnages Pyro <img src="img/UI_Icon_Fire.webp" class="ic"/></a>
-                    <a href="persoAnemo.html"> Personnages Electro <img src="img/UI_Icon_Electric.webp" class="ic"/></a>     
-                 </ul>
-            </li>
+        <ul>
+          <div id="monMenu" class="navig">
+                  <img 
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///8AAADPz89LS0uWlpb39/eCgoKQkJCxsbH29vZiYmI4ODh0dHTX19empqbFxcXr6+sQEBDh4eEbGxu7u7s0NDR6enpXV1egoKDJyclvb28ODg6IiIhcXFwfHx8ZGRnwNjATAAACZUlEQVR4nO3dCW7CMBCFYRdIw75vbSm9/y2rqKgUVRo72NJoxv93gveUkGBj7BAAAAAAAAAAAAAAAAAAoAKrdjq0Y9qu+tVbH1/sOa7TC7baYZ/UJvZrZtpJnzZrkgputHNm2KRUPGinzHKIF3zVzpjpNVZwq50w2zbScKodMNtULjjRzlfARGw41o5XwFhsONeOV8BcbGj3ZX83Extqpyui8oY77XQFXMWGJ+14BZzEhlbHTX/JY6iBdrwCFmJDD48auWBYaufLtow0NP803cUKhoV2xEyRT6H9+zR6j3bO2ikznFMKhrDSzvm05GnhxuYgap40l3izHlmbcpuNekx53y7kdmDHts/lAwAAAAAAAAAAxjRvy5Edy7e+P1zsh9q/JfU23PfoN7hqx33KdZBa0O5i9ugy9h+f2jkzfKYUfNdOmeU9XtD6Sm95lXfwsFhfXqofwkU7YLZLpKF2vgLkgnYXC93Jy4bsvgrv5JeivS9r/w3Fhh/a8QrYiA210xVR+TX0/zn0/yz1/z708KiRC1bwvdT+2CI6JeV+fFjBGL+CeRrLT5vEubYK5kuD/znvjvffLQAAAAAAAAAAgCHO94myt9fXoddeXxOj+7XFFkD/srtsKHHPPff7Jrrf+9L//qVf2hEzRfegtX2PdmL3qXa+AuSC/vfz9r8nu/999a3v5t2Rn6ba6YqovKH/c2ZsDpseyWcFWV/l3ZFXettfqh/9I7D7c9cqODvP/H+7EhazW5tke5RwhmVoLI+Bk84h9X+WbLA7hko9DzhUcKZzx/m53AAAAAAAAAAAAAAAAABg0zfn21Nf0tdOJAAAAABJRU5ErkJggg=="
+                  class="icon"
+                  onclick=openMenu()
+                ></img>
+            <div id="links">
+              <li id="weapons">
+                <a ><img src="img/épée.jpg" class="ic"/>Les Armes</a>
+                  <ul class="sous">
+                     <a href="armes5.html">Armes 5 ⭐</a>
+                     <a href="armes4.html">Armes 4 ⭐</a>
+                  </ul>
+                </li>
+                <li id="artef">
+                 <a ><img src="img/iconartef.webp" class="ic"/> Artefacts</a>
+                   <ul class="sousA">
+                     <a href="artefacts5.html"> Artéfacts Super Rare</a>
+                     <a href="artefacts4.html">Artéfacts Rare</a>
+                   </ul>
+                </li>
+  
+              <li id="persos">
+                <a ><img src="img/iconperso.webp" class="ic"/>Les Personnages</a>
+                   <ul class="sousp">
+                      <a href="persoAnemo.html"> Personnages Anemo <img src="img/UI_Icon_Wind.webp" class="ic"/></a>
+                      <a href="persoCryo.html"> Personnages Cryo <img src="img/UI_Icon_Ice.webp" class="ic"/></a>
+                      <a href="persoPyro.html"> Personnages Pyro <img src="img/UI_Icon_Fire.webp" class="ic"/></a>
+                      <a href="persoElectro.html"> Personnages Electro <img src="img/UI_Icon_Electric.webp" class="ic"/></a>  
+                      <a href="persoGeo.html"> Personnages Geo <img src="img/UI_Icon_Rock.webp" class="ic"/></a>
+                      <a href="persoHydro.html"> Personnages Hydro <img src="img/UI_Icon_Water.webp" class="ic"/></a>      
+                   </ul>
+              </li>
+            </div>
+           
           </div>
-         
-        </div>
-        <a href="index.html">retour à l'acceuil</a>
-      </ul>
-    </nav>
+          <a href="index.html">retour à l'acceuil</a>
+        </ul>
+      </nav>
           
     <script src="script.js"></script>
   </body>
