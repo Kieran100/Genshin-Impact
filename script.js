@@ -14,10 +14,57 @@ let artefMenu = document.getElementById("artef");
 artefMenu.addEventListener("mouseover", openMenuArtefs);
 artefMenu.addEventListener("mouseleave", closeMenuArtefs);
 
+function reponse() {
+  let recherche = document.getElementById("search").value;
+  console.log(recherche);
+
+  if (recherche === "armes 5 étoiles" || recherche === "Armes 5 étoiles") {
+    window.open("armes5.html");
+  } else if (
+    recherche === "armes 4 étoiles" ||
+    recherche === "Armes 4 étoiles"
+  ) {
+    window.open("armes4.html");
+  } else if (
+    recherche === "artefact super rare" ||
+    recherche === "Artefact super rare"
+  ) {
+    window.open("artefacts5.html");
+  } else if (recherche === "artefact rare" || recherche === "Artefact rare") {
+    window.open("artefacts4.html");
+  } else if (recherche === "Personnage Geo" || recherche === "Personnage geo") {
+    window.open("persoGeo.html");
+  } else if (
+    recherche === "Personnage Anemo" ||
+    recherche === "Personnage anemo"
+  ) {
+    window.open("persoAnemo.html");
+  } else if (
+    recherche === "Personnage Cryo" ||
+    recherche === "Personnage cryo"
+  ) {
+    window.open("persoCryo.html");
+  } else if (
+    recherche === "Personnage Pyro" ||
+    recherche === "Personnage pyro"
+  ) {
+    window.open("persoPyro.html");
+  } else if (
+    recherche === "Personnage Hydro" ||
+    recherche === "Personnage hydro"
+  ) {
+    window.open("persoHydro.html");
+  } else if (
+    recherche === "Personnage Electro" ||
+    recherche === "Personnage electro"
+  ) {
+    window.open("persoElectro.html");
+  }
+}
+
 function _menuChanger() {
   menuChanger.style.display = "block";
-  menuChanger.style.fontFamily.fontcolor = "#fff";
-  menuChanger.style.backgroundColor = "  #000";
+  menuChanger.style.backgroundColor = "#0000FF";
 }
 function _menuRetour() {
   menuChanger.style.backgroundColor = "rgba(255, 255, 255, .4)";
