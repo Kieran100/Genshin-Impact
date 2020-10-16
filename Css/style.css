@@ -59,3 +59,6 @@ table {
 nav > ul li:hover .sous {
   display: block;
 }*/
+p {
+  background-color: white;
+}
